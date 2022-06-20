@@ -4,6 +4,7 @@
   <head>
     <title></title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_sheet.css">
   </head>
   <body>
     <div class="header">
@@ -25,10 +26,10 @@
     <div class="boxes">
         <h3>Some random information.</h3>
         <ul>
-            <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character"> this is some subtext under an illustration or image</li>
-            <li><img src="images/claymen.png" alt="3d render of 6 claymen"> is some subtext under an illustration or image</li>
-            <li><img src="images/bedroom.png" alt="3d render of a bedroom"> is some subtext under an illustration or image</li>
-            <li><img src="images/garden.png" alt="3d render of some flowers"> is some subtext under an illustration or image</li>
+            <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character" id="leaf_Healer"> this is some subtext under an illustration or image</li>
+            <li><img src="images/claymen.png" alt="3d render of 6 claymen" id="claymen"> this is some subtext under an illustration or image</li>
+            <li><img src="images/bedroom.png" alt="3d render of a bedroom" id="bedroom"> this is some subtext under an illustration or image</li>
+            <li><img src="images/garden.png" alt="3d render of some flowers" id="garden"> this is some subtext under an illustration or image</li>
         </ul>
     </div>
     <div class="quote">
