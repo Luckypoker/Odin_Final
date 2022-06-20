@@ -20,14 +20,15 @@
              is a lower contrast
         </p>
         <button>Sign up</button>
+        <img src="images/donut.png" alt="3d render of a donut">
     </div>
     <div class="boxes">
         <h3>Some random information.</h3>
         <ul>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
+            <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character"> this is some subtext under an illustration or image</li>
+            <li><img src="images/claymen.png" alt="3d render of 6 claymen"> is some subtext under an illustration or image</li>
+            <li><img src="images/bedroom.png" alt="3d render of a bedroom"> is some subtext under an illustration or image</li>
+            <li><img src="images/garden.png" alt="3d render of some flowers"> is some subtext under an illustration or image</li>
         </ul>
     </div>
     <div class="quote">
