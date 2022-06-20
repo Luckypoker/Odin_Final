@@ -1,0 +1,11 @@
+* {
+    list-style: none;
+}
+img {
+    height: auto;
+    width: 640px;
+}
+#leaf_Healer, #claymen, #bedroom, #garden{
+    height: auto;
+    width: 320px;
+}
