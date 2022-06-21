@@ -17,34 +17,40 @@
     </div>
     <div class="top">
         <div class="left">
-            <h2>This website is awesome</h2>
-            <p class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color
+            <h2 class="header_two">This website is awesome</h2>
+            <p class="left_subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color
              is a lower contrast
             </p>
-            <button>Sign up</button>
+            <button class="top_button">Sign up</button>
         </div>
         <div class="right">
-            <img src="images/donut.png" alt="3d render of a donut">
+            <img src="images/donut.png" alt="3d render of a donut" class="donut">
         </div>
     </div>
-    <div class="boxes">
-        <h3>Some random information.</h3>
-        <ul>
-            <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character" id="leaf_Healer"> this is some subtext under an illustration or image</li>
-            <li><img src="images/claymen.png" alt="3d render of 6 claymen" id="claymen"> this is some subtext under an illustration or image</li>
-            <li><img src="images/bedroom.png" alt="3d render of a bedroom" id="bedroom"> this is some subtext under an illustration or image</li>
-            <li><img src="images/garden.png" alt="3d render of some flowers" id="garden"> this is some subtext under an illustration or image</li>
+    <div class="random">
+        <h3 class="information_header">Some random information.</h3>
+        <ul class="boxes">
+            <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character" id="leaf_Healer"></li>
+            <li><img src="images/claymen.png" alt="3d render of 6 claymen" id="claymen"> </li>
+            <li><img src="images/bedroom.png" alt="3d render of a bedroom" id="bedroom"></li>
+            <li><img src="images/garden.png" alt="3d render of some flowers" id="garden"></li>
+        </ul>
+        <ul class="boxes_subtext">
+            <li>this is some subtext under an illustration or image</li>
+            <li>this is some subtext under an illustration or image</li>
+            <li>this is some subtext under an illustration or image</li>
+            <li>this is some subtext under an illustration or image</li>
         </ul>
     </div>
     <div class="quote">
-        <p><em>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
-            or maybe people will actually read it. Who knows? All I know is that it looks nice</em>."
+        <p>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
+            or maybe people will actually read it. Who knows? All I know is that it looks nice."
         </p>
     </div>
     <div class="signup">
-        <h4>Call to action! It's time!</h4>
-        <p>Sign up for our product by clicking that button right over there</p>
-        <button>Sign up</button>
+        <h4 class="action">Call to action! It's time!</h4>
+        <p class="signup_body">Sign up for our product by clicking that button right over there</p>
+        <button class="signup_button">Sign up</button>
     </div>
     <div class="footer">
         <p>Copyright © The Odin Project</p>
