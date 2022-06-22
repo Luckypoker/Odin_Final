@@ -27,10 +27,12 @@ body {
 }
 .top {
     background-color: #1f2937;
-    color: aliceblue;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: #f9faf8;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 .left {
     display: flex;
@@ -38,7 +40,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     padding-left: 18%;
-
+    gap: 12px;
 }
 .header_two {
     font-size: 48px;
@@ -47,11 +49,15 @@ body {
 }
 
 .left_subtext {
-    font-size: 20px;
+    font-size: 18px;
+    width: 90%;
+    color: #f9faf86e;
 }
 .top_button {
     display: flex;
-    width: 10%;
+    width: 24%;
+    justify-content: center;
+    align-items: center;
 }
 .right {
     padding-right: 18%;
@@ -69,16 +75,25 @@ body {
     gap: 60px;
     margin: 40px;
 }
+
 .boxes {
     display: flex;
-    justify-content: space-around;
-    gap: 60px;
-    border-style: double;
-    border-color: aqua;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 }
-.boxes_subtext {
+.pictures {
     display: flex;
-    width: 60%;
+    flex-direction: row;
+    gap: 40px;
+}
+.pictures_subtext {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
 }
 .information_header {
     font-size: 36px;
@@ -120,12 +135,10 @@ body {
     font-size: larger;
 }
 .signup_right {
-    border-color: brown;
+    border-color:#f9faf8;
     border-style: solid;
 }
 .action {
-    border-color: brown;
-    border-style: solid;
     font-size: xx-large;
 }
 button {

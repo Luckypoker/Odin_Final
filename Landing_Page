@@ -29,18 +29,20 @@
     </div>
     <div class="random">
         <h3 class="information_header">Some random information.</h3>
-        <ul class="boxes">
-            <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character" id="leaf_Healer"></li>
-            <li><img src="images/claymen.png" alt="3d render of 6 claymen" id="claymen"> </li>
-            <li><img src="images/bedroom.png" alt="3d render of a bedroom" id="bedroom"></li>
-            <li><img src="images/garden.png" alt="3d render of some flowers" id="garden"></li>
-        </ul>
-        <ul class="boxes_subtext">
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-        </ul>
+        <div class="boxes">
+            <ul class="pictures">
+                <li><img src="images/leaf_Healer.png" alt="3d render of a leaf character" id="leaf_Healer"></li>
+                <li><img src="images/claymen.png" alt="3d render of 6 claymen" id="claymen"> </li>
+                <li><img src="images/bedroom.png" alt="3d render of a bedroom" id="bedroom"></li>
+                <li><img src="images/garden.png" alt="3d render of some flowers" id="garden"></li>
+            </ul>
+            <ul class="pictures_subtext">
+                <li>this is some subtext under an illustration or image</li>
+                <li>this is some subtext under an illustration or image</li>
+                <li>this is some subtext under an illustration or image</li>
+                <li>this is some subtext under an illustration or image</li>
+            </ul>
+        </div>
     </div>
     <div class="box">
         <p class="box quote">"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
