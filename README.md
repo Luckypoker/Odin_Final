@@ -5,3 +5,5 @@ I'll have to build the html boilerplate
 Fill in any details that were asked to be provided sourced from the project page
 Ensure all my elements are respectively classed and labled
 Build and fill out a css sheet
+
+All images and illustrations are made and posted by yours truly
