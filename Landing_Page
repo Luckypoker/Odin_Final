@@ -42,15 +42,19 @@
             <li>this is some subtext under an illustration or image</li>
         </ul>
     </div>
-    <div class="quote">
-        <p>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
+    <div class="box">
+        <p class="box quote">"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
             or maybe people will actually read it. Who knows? All I know is that it looks nice."
         </p>
     </div>
     <div class="signup">
-        <h4 class="action">Call to action! It's time!</h4>
-        <p class="signup_body">Sign up for our product by clicking that button right over there</p>
-        <button class="signup_button">Sign up</button>
+        <div class="signup_left">
+            <h4 class="action">Call to action! It's time!</h4>
+            <p class="signup_body">Sign up for our product by clicking that button right over there</p>
+        </div>
+        <div class="signup_right">
+            <button>Sign up</button>
+        </div>
     </div>
     <div class="footer">
         <p>Copyright © The Odin Project</p>
